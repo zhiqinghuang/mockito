@@ -22,6 +22,8 @@ matrix:
     env: SKIP_RELEASE=true
   - jdk: oraclejdk9
     env: SKIP_RELEASE=true MOCK_MAKER=mock-maker-inline
+  - jdk: oraclejdk9
+    env: SKIP_RELEASE=true DISABLE_REFLECTION=true
 
 branches:
   #Don't build tags
